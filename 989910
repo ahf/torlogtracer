@@ -1,0 +1,22 @@
+Oct 04 12:11:42.000 [notice] Tor 0.3.2.1-alpha-dev (git-f71ff0cabc36b5ae) opening new log file.
+Oct 04 12:11:42.000 [notice] REQUEST
+Oct 04 12:13:50.000 [info] connection_ap_handle_onion(): Found usable descriptor in cache for gff4ixq3takworeuhkubzz4xh2ulytoct4xrpazkiykhupalqlo53ryd. Not fetching..
+Oct 04 12:16:19.000 [info] connection_ap_handle_onion(): Descriptor is here. Great.
+Oct 04 12:11:42.000 [notice] DESC FETCH
+Oct 04 12:13:24.000 [info] directory_launch_v3_desc_fetch(): Descriptor fetch request for service MUvEXhuYFWdElDqoHOeXPqi8TcKfLxeDKkYUejwLgt0 with blinded key 3B2pW3LyDEugZpu4AxEMqnpATPA8aBeB7i2ZqzOIIBc to directory $5E853C94AB1F655E9C908924370A0A6707508C62~holycowburger at 120.29.217.4
+Oct 04 12:13:26.000 [info] handle_response_fetch_hsdesc_v3(): Received v3 hsdesc (body size 14103, status 200 ("OK"))
+Oct 04 12:11:42.000 [notice] REND ESTABLISHMTn
+Oct 04 12:13:26.000 [info] hs_circ_send_establish_rendezvous(): Send an ESTABLISH_RENDEZVOUS cell on circuit 3279945219
+Oct 04 12:11:50.000 [info] hs_client_receive_rendezvous_acked(): Received an RENDEZVOUS_ESTABLISHED. This circuit is now ready for rendezvous.
+Oct 04 12:11:42.000 [notice] INTRO
+Oct 04 12:13:27.000 [info] handle_introduce_ack_success(): Received INTRODUCE_ACK ack! Informing rendezvous
+Oct 04 12:13:27.000 [info] hs_client_receive_rendezvous2(): Got RENDEZVOUS2 cell from hidden service on circuit 3279945219.
+Oct 04 12:11:42.000 [notice] ATTACH
+Oct 04 12:13:27.000 [info] connection_ap_handshake_attach_circuit(): rend joined circ 3279945219 (id: 8) already here. Attaching. (stream 1 sec old)
+Oct 04 12:11:42.000 [notice] ATTACH2
+Oct 04 12:16:19.000 [info] connection_edge_process_relay_cell_not_open(): 'connected' received for circid 3279945219 streamid 30990 after 0 seconds.
+Oct 04 12:11:42.000 [notice] MARKED_FOR_CLOSE
+Oct 05 11:50:47.000 [info] circuit_mark_for_close_(): Circuit 0 (id: 8) marked for close at src/or/circuitlist.c:1473 (orig reason: 520, new reason: 0)
+Oct 05 11:50:48.000 [info] circuit_free(): Circuit 0 (id: 8) has been freed.
+Oct 04 12:11:42.000 [notice] END
+Oct 05 11:50:48.000 [info] rend_client_note_connection_attempt_ended(): Connection attempt for d6sfftbz6pkwfwwl has ended; cleaning up temporary state.

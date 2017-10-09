@@ -1,4 +1,5 @@
 mod log_line;
+mod tor_log;
 
 use std::env;
 use std::path::Path;
