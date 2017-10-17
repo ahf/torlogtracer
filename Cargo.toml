@@ -1,5 +1,5 @@
 [package]
-name = "prop244tracer"
+name = "torlogtracer"
 version = "0.1.0"
 authors = ["asn", "ahf"]
 
